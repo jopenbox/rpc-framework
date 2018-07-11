@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 客户端配置文件 async:true异步,false同步 -->
+<application maxThreadCount="100">
+    <service name="myService" connectStr="localhost:10018,localhost:10019" maxConnection="200" async="true"/>
+</application>
